@@ -1,4 +1,4 @@
-# DeepDTI Tutorial
+# Self2Self-AM Tutorial
 
 ![MUnet](https://github.com/qiyuantian/Self2Self-AM/blob/main/imgs/MUnet.png)
 **Modified U-Net (MU-Net).** MU-Net is modified from U-Net. All max pooling layers and up-sampling layers are removed. The number of kernels is constant across all layers. The input is a noisy image volume while the output is the residual volume between the input and the high-signal-to-noise ratio (SNR) target image volume (i.e., the noise). Network parameter _k_ = 128 is adopted in this study (~9.3 million parameters).
