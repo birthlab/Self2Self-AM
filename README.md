@@ -1,4 +1,4 @@
-# Self2Self-AM Tutorial
+# [Self2Self-AM](https://www.sciencedirect.com/science/article/pii/S1053811926005252) Tutorial
 
 ![MUnet](https://github.com/qiyuantian/Self2Self-AM/blob/main/imgs/MUnet.png)
 **Modified U-Net (MU-Net).** MU-Net is modified from U-Net. All max pooling layers and up-sampling layers are removed. The number of kernels is constant across all layers. The input is a noisy image volume while the output is the residual volume between the input and the high-signal-to-noise ratio (SNR) target image volume (i.e., the noise). Network parameter _k_ = 128 is adopted in this study (~9.3 million parameters).
@@ -74,6 +74,6 @@ The Wave-MPRAGE and Standard-MPRAGE T1-weighted MRI data of 10 healthy subjects 
 
 ## **Refereces**
 
-[1] Tian Q, Li Z, Lo W, Li Z, Bilgic B, Polimeni J, Huang S. Improving the accessibility of deep learning-based denoising for aceelerated brain MRI using self-supervised learning and/or transfer learning.
+[1] Li Z#, Li Z#, Liu M#, Lo WC, Jia F, Luo Y, Bilgic B, Polimeni JR, Qu H*, Tian Q*, Huang SY. [Improving the accessibility of deep learning-based denoising for accelerated brain MRI using self-supervised learning and/or transfer learning.](https://www.sciencedirect.com/science/article/pii/S1053811926005252) NeuroImage, 2026; 341: 122210.
 [2] Tian Q. Improving The Accessibility Of Deep Learning-Based Denoising For MRI Using Transfer Learning And Self-Supervised Learning, Online Power Pitch Oral Presentation. The 2022 Annual Scientific Meeting of ISMRM.
 
